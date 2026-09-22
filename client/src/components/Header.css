@@ -1,0 +1,40 @@
+.header-title-font {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: chocolate;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Papyrus';
+}
+
+.custom-navbar {
+    background-color: #2b1b12; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+}
+
+.header-leaderboard-font {
+    font-family: 'Lucida Console', monospace;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 4px rgb(127, 74, 35);
+    color: chocolate !important;
+    opacity: 1 !important;
+}
+
+.header-leaderboard-font:hover {
+    color: rgb(255, 255, 255) !important;
+    opacity: 1 !important;
+}
+
+.header-user-font {
+    font-family: 'Lucida Console', monospace;
+    font-style: italic;
+    font-size: 1.3rem;
+    color: #cccccc !important;
+    opacity: 1 !important;
+}
+
+.header-logout-button {
+    font-family: 'Lucida Console', monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

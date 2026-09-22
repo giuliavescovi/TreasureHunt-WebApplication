@@ -1,0 +1,47 @@
+.leaderboard-title-font {
+    font-size: 4rem;
+    font-weight: bold;
+    color: chocolate;
+    font-family: 'Papyrus';
+}
+
+/* Stile base per la tabella (font e colore generali) */
+.leaderboard-table-font {
+    font-family: 'Lucida Console', monospace;
+    font-size: 1.1rem;
+    color: #000000; 
+}
+
+/* Nomi delle colonne (th)*/
+.leaderboard-table-font th {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: normal; 
+}
+
+/* Testo dentro le righe (td)*/
+.leaderboard-table-font td {
+    font-size: 1.3rem;
+}
+
+.exit-leader-button {
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Lucida Console', monospace  ;
+  color: white;
+  background-color: #41291b;
+  border: 2px solid #41291b;
+  border-radius: 5px; /* Bordi arrotondati per i pulsanti */
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exit-leader-button:hover {
+    background-color: #613d27 !important; /* Colore bordeaux */
+    border-color: #613d27 !important;
+    color: white !important;
+}

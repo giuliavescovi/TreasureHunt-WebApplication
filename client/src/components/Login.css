@@ -1,0 +1,64 @@
+.login-title-font {
+    font-size: 4rem;
+    font-weight: bold;
+    color: chocolate;
+    font-family: 'Papyrus';
+}
+
+.form-font {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Console', monospace;
+}
+
+.form-font .form-control::placeholder {
+    font-family: 'Lucida Console', monospace; 
+    font-size: 1.1rem;
+    font-weight: normal; 
+    color: #a9a9a9; 
+}
+
+.login-button {
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Lucida Console', monospace  ;
+  color: white;
+  background-color: chocolate;
+  border: 2px solid chocolate;
+  border-radius: 5px; 
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exit-button {
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: 'Lucida Console', monospace  ;
+  color: white;
+  background-color: #41291b;
+  border: 2px solid #41291b;
+  border-radius: 5px; 
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-button:hover {
+    background-color: #8a0101 !important; 
+    border-color: #800000 !important;
+    color: white !important;
+}
+
+.exit-button:hover {
+    background-color: #613d27 !important; 
+    border-color: #613d27 !important;
+    color: white !important;
+}

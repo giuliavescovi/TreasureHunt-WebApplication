@@ -1,0 +1,68 @@
+.home-container {
+    font-family: Papyrus, Copperplate, fantasy;
+}
+
+.title-font {
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: chocolate;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-family: 'Papyrus';
+}
+
+.description-font {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Lucida Console', monospace;
+}
+
+.description2-font {
+    font-size: 1.2rem;
+    color: #000000;
+    font-family: 'Lucida Console', monospace;
+}
+
+.access-logged-button {
+  width: 370px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'Lucida Console', monospace;
+  color: white;
+  background-color: chocolate;
+  border: 2px solid chocolate;
+  border-radius: 5px; /* Bordi arrotondati per i pulsanti */
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.access-logged-button:hover {
+    background-color: #8a0101 !important; /* Colore bordeaux */
+    border-color: #800000 !important;
+    color: white !important;
+}
+
+.access-button {
+  width: 300px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'Lucida Console', monospace;
+  color: white;
+  background-color: chocolate;
+  border: 2px solid chocolate;
+  border-radius: 5px; /* Bordi arrotondati per i pulsanti */
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.access-button:hover {
+    background-color: #8a0101 !important; /* Colore bordeaux */
+    border-color: #800000 !important;
+    color: white !important;
+}
